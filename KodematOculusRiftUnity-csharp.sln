@@ -1,0 +1,55 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{2C7C0AD6-B876-9322-EEA0-591FEFC834C6}") = "KodematOculusRiftUnity", "Assembly-CSharp-firstpass-vs.csproj", "{401DD3C2-0458-6AAB-C779-452315AA4168}"
+EndProject
+Project("{2C7C0AD6-B876-9322-EEA0-591FEFC834C6}") = "KodematOculusRiftUnity", "Assembly-CSharp-vs.csproj", "{947FF047-FFEE-25D3-1B2A-1D7173C21685}"
+EndProject
+Project("{2C7C0AD6-B876-9322-EEA0-591FEFC834C6}") = "KodematOculusRiftUnity", "Assembly-CSharp-Editor-vs.csproj", "{89D84E4A-83E6-7084-A162-0BB6B42774B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{401DD3C2-0458-6AAB-C779-452315AA4168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{401DD3C2-0458-6AAB-C779-452315AA4168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{401DD3C2-0458-6AAB-C779-452315AA4168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{401DD3C2-0458-6AAB-C779-452315AA4168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947FF047-FFEE-25D3-1B2A-1D7173C21685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947FF047-FFEE-25D3-1B2A-1D7173C21685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947FF047-FFEE-25D3-1B2A-1D7173C21685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947FF047-FFEE-25D3-1B2A-1D7173C21685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D84E4A-83E6-7084-A162-0BB6B42774B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D84E4A-83E6-7084-A162-0BB6B42774B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D84E4A-83E6-7084-A162-0BB6B42774B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D84E4A-83E6-7084-A162-0BB6B42774B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+																																																								GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.FileWidth = 120
+		$1.TabWidth = 2
+		$1.EolMarker = Unix
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal

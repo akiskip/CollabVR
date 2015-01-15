@@ -1,0 +1,81 @@
+fileFormatVersion: 2
+guid: 721f44a963dd7b146a3cc594c73e98b4
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: GEO_RB_Sic
+    100002: GEO_Rollb0
+    100004: GEO_Rollb1
+    100006: GEO_Rollba
+    100008: //RootNode
+    400000: GEO_RB_Sic
+    400002: GEO_Rollb0
+    400004: GEO_Rollb1
+    400006: GEO_Rollba
+    400008: //RootNode
+    2300000: GEO_RB_Sic
+    2300002: GEO_Rollb0
+    2300004: GEO_Rollb1
+    2300006: GEO_Rollba
+    3300000: GEO_RB_Sic
+    3300002: GEO_Rollb0
+    3300004: GEO_Rollb1
+    3300006: GEO_Rollba
+    4300000: GEO_RB_Sic
+    4300002: GEO_Rollba
+    4300004: GEO_Rollb0
+    4300006: GEO_Rollb1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 2
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
