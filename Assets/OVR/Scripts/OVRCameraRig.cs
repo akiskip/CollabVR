@@ -53,8 +53,14 @@ public class OVRCameraRig : MonoBehaviour
 	/// Always coincides with the pose of the right eye.
 	/// </summary>
 	public Transform rightEyeAnchor { get; private set; }
-
+	public Transform anchor;
 	private bool needsCameraConfigure;
+
+	public Transform getAnchor (){
+
+		return anchor;
+
+	}
 
 #region Unity Messages
 	private void Awake()
@@ -153,10 +159,10 @@ public class OVRCameraRig : MonoBehaviour
 		}
 	}
 
-	private Transform ConfigureEyeAnchor(OVREye eye)
+	public Transform ConfigureEyeAnchor(OVREye eye)
 	{
 		string name = eye.ToString() + "EyeAnchor";
-		Transform anchor = transform.Find(name);
+		anchor = transform.Find(name);
 
 		if (anchor == null)
 		{
@@ -173,11 +179,14 @@ public class OVRCameraRig : MonoBehaviour
 		anchor.localRotation = Quaternion.identity;
 
 		return anchor;
+
+//		Debug.Log("Anchor info ");
 	}
+
 
 	private Camera ConfigureCamera(OVREye eye)
 	{
-		Transform anchor = (eye == OVREye.Left) ? leftEyeAnchor : rightEyeAnchor;
+		anchor = (eye == OVREye.Left) ? leftEyeAnchor : rightEyeAnchor;
 		Camera cam = anchor.GetComponent<Camera>();
 
 		OVRDisplay.EyeRenderDesc eyeDesc = OVRManager.display.GetEyeRenderDesc(eye);

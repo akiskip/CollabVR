@@ -1,6 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/*
+
+Code for camera movement within the unity scene and the information is sent to KodematData
+
+*/
 namespace UnitySocketClient
 {
     public class C_move : MonoBehaviour

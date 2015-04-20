@@ -6,12 +6,19 @@ public class CameraControl : MonoBehaviour {
 	public float moveSpeed=0.25f;
 	public GameObject HUDMenu;
 	public Texture crosshair;
+	public GameObject laserSight;
+		
+		
+
 
 	// Use this for initialization
 	void Start () {
-	
+
+		laserSight = GameObject.FindGameObjectWithTag("laserSight");
 	}
 	
+
+
 	// Update is called once per frame
 	void Update () {
 		RaycastHit hit;
@@ -30,6 +37,7 @@ public class CameraControl : MonoBehaviour {
 	else if (Input.GetKey (KeyCode.S))
 		{
 			transform.Translate (-Vector3.forward*moveSpeed);
+
 		}
 
 	if (Input.GetKey (KeyCode.A))

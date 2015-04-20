@@ -4,6 +4,20 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 
+/*
+VisualComponentParser is called in the ComponentManager.cs
+
+VisualComponentParser class handles components. It contains component information of translation, rotation, scale, its parent,type as messages. 
+KodematData is also loaded in this class. 
+
+It starts with process messages with switch cases of translation, rotation, scale, type, parent, create, delete and marking. After complete checks the
+object/component is created.
+
+The creatObject function creates the object in the scene by varifying the object in the cache, checking for the path and loading models from /SceneObjects
+
+last function of Dispose is for destroying game objects.
+*/
+
 namespace UnitySocketClient
 {
     public class VisuComponentParser
@@ -213,10 +227,6 @@ namespace UnitySocketClient
         public void CreateObject (int id, string name, Vector3 pos)
         {
 
-
-
-
-
             if (!String.IsNullOrEmpty (modelPath)) {
 
                 GameObject resource = null;
@@ -236,9 +246,13 @@ namespace UnitySocketClient
             } else {
                 Debug.Log ("modelPath is null or empty");
             }
+
+			//if 
+
+
+
             Transform t = instance.transform;//GameObject.Instantiate(testObject, pos, Quaternion.identity) as Transform;
-
-
+		
             //Alle Objekte unsichtbar machen
             //instance.SetActive (false);
 
@@ -257,6 +271,17 @@ namespace UnitySocketClient
                         child.gameObject.AddComponent<BoxCollider> ();
                     }
                 }
+
+
+				if (child.name.Contains ("camera")) {
+
+					//add a light component on for camera object
+
+				// 1. turn light on
+		    	// 2. set color of light in rbg
+
+				 }
+
 
             }
                 

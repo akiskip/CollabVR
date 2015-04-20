@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\lightObj.js">
+    <Files>
+      <File FileName="Assets\Network\VisuComponentParser.cs" Line="275" Column="1" />
+      <File FileName="Assets\Scripts\lightObj.js" Line="25" Column="31" />
+      <File FileName="Assets\Scripts\CameraObject.cs" Line="9" Column="3" />
+      <File FileName="Assets\ControlScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\MenuMainScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Network\AsynchronousClient.cs" Line="1" Column="1" />
+      <File FileName="Assets\Network\ComponentManager.cs" Line="1" Column="1" />
+      <File FileName="c:\KoDeMat\GitHub\CollabVR\Assets\OVR\Scripts\OVRCommon.cs" Line="95" Column="65" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

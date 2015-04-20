@@ -34,6 +34,8 @@ public class M_Edit : MonoBehaviour
         buttonMove = transform.FindChild ("Orientation/Move");
         buttonRotate = transform.FindChild ("Orientation/Rotate");
         buttonDelete = transform.FindChild ("Orientation/Delete");
+
+
     }
   
     // Update is called once per frame
@@ -53,6 +55,8 @@ public class M_Edit : MonoBehaviour
                     viewIndex = 1;
                 } else if (hit.transform == buttonRotate) {
                     buttonRotate.renderer.material.mainTexture = t_rotate_hl;
+
+
                     viewIndex = 2;
                 } else if (hit.transform == buttonDelete) {
                     buttonDelete.renderer.material.mainTexture = t_delete_hl;
